@@ -1,0 +1,383 @@
+```svg
+<svg width="1600" height="520" viewBox="0 0 1600 520" xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+
+<linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#080014"/>
+<stop offset="100%" stop-color="#150028"/>
+</linearGradient>
+
+<filter id="glow">
+<feGaussianBlur stdDeviation="4"/>
+</filter>
+
+<filter id="strongGlow">
+<feGaussianBlur stdDeviation="8"/>
+</filter>
+
+</defs>
+
+<!-- Background -->
+
+<rect width="1600" height="520" fill="url(#bg)"/>
+
+<!-- Title -->
+
+<text x="800"
+      y="60"
+      text-anchor="middle"
+      fill="#ff00ff"
+      font-size="34"
+      font-family="monospace"
+      font-weight="bold">
+
+LIVE INFRASTRUCTURE VISUALIZATION
+
+</text>
+
+<!-- USERS -->
+
+<rect x="80"
+      y="180"
+      width="220"
+      height="140"
+      rx="18"
+      fill="#120020"
+      stroke="#00ffff"
+      stroke-width="3"/>
+
+<text x="190"
+      y="230"
+      text-anchor="middle"
+      fill="#00ffff"
+      font-size="24"
+      font-family="monospace">
+
+👥 USERS
+
+</text>
+
+<text x="190"
+      y="270"
+      text-anchor="middle"
+      fill="#ffffff"
+      font-size="14"
+      font-family="monospace">
+
+LIVE CLIENT TRAFFIC
+
+</text>
+
+<!-- SPRING BOOT -->
+
+<rect x="420"
+      y="180"
+      width="250"
+      height="140"
+      rx="18"
+      fill="#120020"
+      stroke="#00ff88"
+      stroke-width="3"/>
+
+<text x="545"
+      y="230"
+      text-anchor="middle"
+      fill="#00ff88"
+      font-size="24"
+      font-family="monospace">
+
+☕ SPRING BOOT
+
+</text>
+
+<text x="545"
+      y="265"
+      text-anchor="middle"
+      fill="#ffffff"
+      font-size="13"
+      font-family="monospace">
+
+REST • JWT • SECURITY
+
+</text>
+
+<text x="545"
+      y="295"
+      text-anchor="middle"
+      fill="#00ff88"
+      font-size="12"
+      font-family="monospace">
+
+847 req/s
+
+<animate attributeName="opacity"
+values="1;0.4;1"
+dur="1s"
+repeatCount="indefinite"/>
+
+</text>
+
+<!-- REDIS -->
+
+<rect x="790"
+      y="180"
+      width="250"
+      height="140"
+      rx="18"
+      fill="#120020"
+      stroke="#ff4444"
+      stroke-width="3"/>
+
+<text x="915"
+      y="230"
+      text-anchor="middle"
+      fill="#ff4444"
+      font-size="24"
+      font-family="monospace">
+
+⚡ REDIS
+
+</text>
+
+<text x="915"
+      y="265"
+      text-anchor="middle"
+      fill="#ffffff"
+      font-size="13"
+      font-family="monospace">
+
+CACHE LAYER
+
+</text>
+
+<text x="915"
+      y="295"
+      text-anchor="middle"
+      fill="#ff4444"
+      font-size="12"
+      font-family="monospace">
+
+HIT RATE 94.7%
+
+<animate attributeName="opacity"
+values="1;0.3;1"
+dur="1.2s"
+repeatCount="indefinite"/>
+
+</text>
+
+<!-- MYSQL -->
+
+<rect x="1160"
+      y="180"
+      width="250"
+      height="140"
+      rx="18"
+      fill="#120020"
+      stroke="#ffd700"
+      stroke-width="3"/>
+
+<text x="1285"
+      y="230"
+      text-anchor="middle"
+      fill="#ffd700"
+      font-size="24"
+      font-family="monospace">
+
+🗄 MYSQL
+
+</text>
+
+<text x="1285"
+      y="265"
+      text-anchor="middle"
+      fill="#ffffff"
+      font-size="13"
+      font-family="monospace">
+
+ACID DATABASE
+
+</text>
+
+<text x="1285"
+      y="295"
+      text-anchor="middle"
+      fill="#ffd700"
+      font-size="12"
+      font-family="monospace">
+
+1.2M RECORDS
+
+</text>
+
+<!-- AWS -->
+
+<rect x="610"
+      y="380"
+      width="380"
+      height="90"
+      rx="18"
+      fill="#120020"
+      stroke="#ff00ff"
+      stroke-width="3"/>
+
+<text x="800"
+      y="430"
+      text-anchor="middle"
+      fill="#ff00ff"
+      font-size="26"
+      font-family="monospace">
+
+☁ AWS CLOUD
+
+</text>
+
+<text x="800"
+      y="455"
+      text-anchor="middle"
+      fill="#ffffff"
+      font-size="13"
+      font-family="monospace">
+
+EC2 • RDS • ELASTICACHE • ECS
+
+</text>
+
+<!-- CONNECTION LINES -->
+
+<line x1="300" y1="250" x2="420" y2="250"
+stroke="#00ffff"
+stroke-width="4"/>
+
+<line x1="670" y1="250" x2="790" y2="250"
+stroke="#00ff88"
+stroke-width="4"/>
+
+<line x1="1040" y1="250" x2="1160" y2="250"
+stroke="#ff4444"
+stroke-width="4"/>
+
+<line x1="800" y1="320" x2="800" y2="380"
+stroke="#ff00ff"
+stroke-width="4"/>
+
+<!-- PACKET 1 -->
+
+<circle r="8" fill="#00ffff" filter="url(#glow)">
+<animateMotion
+dur="4s"
+repeatCount="indefinite"
+path="M 300 250 L 420 250 L 670 250 L 790 250 L 1040 250 L 1160 250"/>
+</circle>
+
+<!-- PACKET 2 -->
+
+<circle r="8" fill="#ff00ff" filter="url(#glow)">
+<animateMotion
+dur="5s"
+repeatCount="indefinite"
+path="M 300 250 L 420 250 L 670 250 L 790 250 L 1040 250 L 1160 250"/>
+</circle>
+
+<!-- PACKET 3 -->
+
+<circle r="8" fill="#00ff88" filter="url(#glow)">
+<animateMotion
+dur="6s"
+repeatCount="indefinite"
+path="M 300 250 L 420 250 L 670 250 L 790 250 L 1040 250 L 1160 250"/>
+</circle>
+
+<!-- AWS TRAFFIC -->
+
+<circle r="7" fill="#ffd700">
+
+<animateMotion
+dur="3s"
+repeatCount="indefinite"
+path="M 800 320 L 800 380"/>
+
+</circle>
+
+<!-- STATUS DOTS -->
+
+<circle cx="250" cy="205" r="6" fill="#00ff88">
+<animate attributeName="opacity"
+values="1;0.2;1"
+dur="1s"
+repeatCount="indefinite"/>
+</circle>
+
+<circle cx="620" cy="205" r="6" fill="#00ff88">
+<animate attributeName="opacity"
+values="1;0.2;1"
+dur="1.2s"
+repeatCount="indefinite"/>
+</circle>
+
+<circle cx="990" cy="205" r="6" fill="#00ff88">
+<animate attributeName="opacity"
+values="1;0.2;1"
+dur="1.4s"
+repeatCount="indefinite"/>
+</circle>
+
+<circle cx="1360" cy="205" r="6" fill="#00ff88">
+<animate attributeName="opacity"
+values="1;0.2;1"
+dur="1.6s"
+repeatCount="indefinite"/>
+</circle>
+
+<!-- CACHE CAT -->
+
+<g>
+
+<ellipse cx="915"
+         cy="135"
+         rx="26"
+         ry="14"
+         fill="#ff66ff"/>
+
+<circle cx="885"
+        cy="125"
+        r="11"
+        fill="#ff66ff"/>
+
+<polygon points="878,115 882,100 888,115"
+fill="#ff66ff"/>
+
+<polygon points="892,115 898,100 902,115"
+fill="#ff66ff"/>
+
+<rect x="877"
+      y="122"
+      width="16"
+      height="4"
+      fill="#00ffff"/>
+
+<animateTransform
+attributeName="transform"
+type="translate"
+values="0 0;0 -4;0 0"
+dur="2s"
+repeatCount="indefinite"/>
+
+</g>
+
+<!-- FOOTER -->
+
+<text x="800"
+      y="505"
+      text-anchor="middle"
+      fill="#888"
+      font-size="12"
+      font-family="monospace">
+
+SPRING BOOT → REDIS → MYSQL → AWS • ALL SYSTEMS OPERATIONAL
+
+</text>
+
+</svg>
+```
