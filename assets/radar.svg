@@ -1,180 +1,81 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700" shape-rendering="geometricPrecision">
 
-<rect width="1600" height="700" fill="#0a0014"/>
+  <!-- Background -->
+  <rect width="1600" height="700" fill="#0a0014"/>
 
-<text x="800"
-      y="60"
-      text-anchor="middle"
-      fill="#ff00ff"
-      font-size="36"
-      font-family="monospace"
-      font-weight="bold">
-ACTIVITY RADAR · FOCUS AREAS
-</text>
+  <!-- Title -->
+  <text x="800" y="80"
+        text-anchor="middle"
+        fill="#ff00ff"
+        font-size="34"
+        font-family="monospace, Courier New">
+    ACTIVITY RADAR · FOCUS AREAS
+  </text>
 
-<!-- Radar circles -->
+  <!-- Radar Circles -->
+  <g stroke="#ff00ff" stroke-width="1" fill="none">
+    <circle cx="800" cy="350" r="80"/>
+    <circle cx="800" cy="350" r="160"/>
+    <circle cx="800" cy="350" r="240"/>
+    <circle cx="800" cy="350" r="300"/>
+  </g>
 
-<circle cx="800" cy="350" r="70"
-        stroke="#ff00ff"
-        stroke-width="1"
-        fill="none"/>
+  <!-- Radar Lines -->
+  <g stroke="#00ffff" stroke-width="1">
+    <line x1="800" y1="80" x2="800" y2="620"/>
+    <line x1="520" y1="350" x2="1080" y2="350"/>
+    <line x1="610" y1="170" x2="990" y2="530"/>
+    <line x1="990" y1="170" x2="610" y2="530"/>
+  </g>
 
-<circle cx="800" cy="350" r="140"
-        stroke="#ff00ff"
-        stroke-width="1"
-        fill="none"/>
+  <!-- Data Polygon -->
+  <polygon points="800,140 1010,240 960,460 800,560 640,460 590,240"
+           fill="#ff00ff22"
+           stroke="#ff00ff"
+           stroke-width="3"/>
 
-<circle cx="800" cy="350" r="210"
-        stroke="#ff00ff"
-        stroke-width="1"
-        fill="none"/>
+  <!-- Center Labels -->
+  <g font-family="monospace, Courier New" font-size="16">
 
-<circle cx="800" cy="350" r="280"
-        stroke="#ff00ff"
-        stroke-width="1"
-        fill="none"/>
+    <text x="800" y="120" text-anchor="middle" fill="#00ffff">BACKEND</text>
+    <circle cx="800" cy="140" r="6" fill="#00ffff"/>
 
-<!-- Radar lines -->
+    <text x="1080" y="240" fill="#ff4444">SECURITY</text>
+    <circle cx="1010" cy="240" r="6" fill="#ff4444"/>
 
-<line x1="800" y1="70" x2="800" y2="630"
-      stroke="#00ffff"/>
+    <text x="1080" y="460" fill="#ffd700">CLOUD</text>
+    <circle cx="960" cy="460" r="6" fill="#ffd700"/>
 
-<line x1="520" y1="350" x2="1080" y2="350"
-      stroke="#00ffff"/>
+    <text x="800" y="610" text-anchor="middle" fill="#00ff88">SYSTEM DESIGN</text>
+    <circle cx="800" cy="560" r="6" fill="#00ff88"/>
 
-<line x1="610" y1="160" x2="990" y2="540"
-      stroke="#00ffff"/>
+    <text x="360" y="460" fill="#ff66ff">DATABASE</text>
+    <circle cx="640" cy="460" r="6" fill="#ff66ff"/>
 
-<line x1="990" y1="160" x2="610" y2="540"
-      stroke="#00ffff"/>
+    <text x="330" y="240" fill="#00ffff">AI PROJECTS</text>
+    <circle cx="590" cy="240" r="6" fill="#00ffff"/>
 
-<!-- Shape -->
+  </g>
 
-<polygon
-points="800,120 1030,230 980,470 800,570 620,470 570,230"
-fill="#ff00ff22"
-stroke="#ff00ff"
-stroke-width="3"/>
+  <!-- Tech Stack -->
+  <g font-family="monospace, Courier New" font-size="18">
+    <text x="1180" y="200" fill="#00ffff">JAVA</text>
+    <text x="1180" y="240" fill="#00ff88">SPRING BOOT</text>
+    <text x="1180" y="280" fill="#ffd700">MYSQL</text>
+    <text x="1180" y="320" fill="#ff66ff">REDIS</text>
+    <text x="1180" y="360" fill="#ff4444">AWS</text>
+    <text x="1180" y="400" fill="#00ffff">DOCKER</text>
+    <text x="1180" y="440" fill="#00ff88">JWT / RBAC</text>
+    <text x="1180" y="480" fill="#ffd700">REST APIs</text>
+  </g>
 
-<!-- Labels -->
-
-<circle cx="800" cy="120" r="10" fill="#00ffff"/>
-<text x="800" y="95"
-      text-anchor="middle"
-      fill="#00ffff"
-      font-size="18"
-      font-family="monospace">
-BACKEND ENGINEERING
-</text>
-
-<circle cx="1030" cy="230" r="10" fill="#ff4444"/>
-<text x="1080" y="235"
-      fill="#ff4444"
-      font-size="18"
-      font-family="monospace">
-SECURITY
-</text>
-
-<circle cx="980" cy="470" r="10" fill="#ffd700"/>
-<text x="1040" y="475"
-      fill="#ffd700"
-      font-size="18"
-      font-family="monospace">
-CLOUD DEPLOYMENT
-</text>
-
-<circle cx="800" cy="570" r="10" fill="#00ff88"/>
-<text x="800" y="610"
-      text-anchor="middle"
-      fill="#00ff88"
-      font-size="18"
-      font-family="monospace">
-SYSTEM DESIGN
-</text>
-
-<circle cx="620" cy="470" r="10" fill="#ff66ff"/>
-<text x="350" y="475"
-      fill="#ff66ff"
-      font-size="18"
-      font-family="monospace">
-DATABASE DESIGN
-</text>
-
-<circle cx="570" cy="230" r="10" fill="#00ffff"/>
-<text x="330" y="235"
-      fill="#00ffff"
-      font-size="18"
-      font-family="monospace">
-AI PROJECTS
-</text>
-
-<!-- Tech Stack -->
-
-<text x="1180" y="180"
-      fill="#00ffff"
-      font-size="20"
-      font-family="monospace">
-JAVA
-</text>
-
-<text x="1180" y="230"
-      fill="#00ff88"
-      font-size="20"
-      font-family="monospace">
-SPRING BOOT
-</text>
-
-<text x="1180" y="280"
-      fill="#ffd700"
-      font-size="20"
-      font-family="monospace">
-MYSQL
-</text>
-
-<text x="1180" y="330"
-      fill="#ff66ff"
-      font-size="20"
-      font-family="monospace">
-REDIS
-</text>
-
-<text x="1180" y="380"
-      fill="#ff4444"
-      font-size="20"
-      font-family="monospace">
-AWS
-</text>
-
-<text x="1180" y="430"
-      fill="#00ffff"
-      font-size="20"
-      font-family="monospace">
-DOCKER
-</text>
-
-<text x="1180" y="480"
-      fill="#00ff88"
-      font-size="20"
-      font-family="monospace">
-JWT & RBAC
-</text>
-
-<text x="1180" y="530"
-      fill="#ffd700"
-      font-size="20"
-      font-family="monospace">
-REST APIs
-</text>
-
-<!-- Footer -->
-
-<text x="800"
-      y="670"
-      text-anchor="middle"
-      fill="#888"
-      font-size="14"
-      font-family="monospace">
-JAVA • SPRING BOOT • MYSQL • REDIS • AWS • DOCKER • SECURITY • AI
-</text>
+  <!-- Footer -->
+  <text x="800" y="660"
+        text-anchor="middle"
+        fill="#777"
+        font-size="14"
+        font-family="monospace">
+    JAVA • SPRING BOOT • MYSQL • REDIS • AWS • DOCKER • SECURITY • AI
+  </text>
 
 </svg>
