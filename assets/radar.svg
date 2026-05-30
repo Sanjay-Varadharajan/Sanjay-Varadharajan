@@ -1,27 +1,13 @@
 <svg width="1600" height="600" viewBox="0 0 1600 600" xmlns="http://www.w3.org/2000/svg">
 
 <defs>
-
 <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
 <stop offset="0%" stop-color="#070012"/>
 <stop offset="100%" stop-color="#170028"/>
 </linearGradient>
-
-<filter id="glow">
-<feGaussianBlur stdDeviation="4"/>
-</filter>
-
-<filter id="strongGlow">
-<feGaussianBlur stdDeviation="10"/>
-</filter>
-
 </defs>
 
-<!-- Background -->
-
 <rect width="1600" height="600" fill="url(#bg)"/>
-
-<!-- Title -->
 
 <text x="800"
       y="55"
@@ -31,67 +17,41 @@
       font-family="monospace"
       font-weight="bold">
 
-ACTIVITY RADAR · SKILL MATRIX
+ACTIVITY RADAR · FOCUS AREAS
 
 </text>
 
-<!-- Radar circles -->
+<!-- Radar -->
 
-<g stroke="#ff00ff" fill="none" opacity="0.5">
-
+<g stroke="#ff00ff" fill="none" opacity="0.4">
 <circle cx="800" cy="320" r="60"/>
 <circle cx="800" cy="320" r="120"/>
 <circle cx="800" cy="320" r="180"/>
 <circle cx="800" cy="320" r="240"/>
-
 </g>
 
-<!-- Radar lines -->
-
 <g stroke="#00ffff" opacity="0.4">
-
 <line x1="800" y1="80" x2="800" y2="560"/>
 <line x1="560" y1="320" x2="1040" y2="320"/>
 <line x1="630" y1="150" x2="970" y2="490"/>
 <line x1="970" y1="150" x2="630" y2="490"/>
-
 </g>
 
-<!-- Radar Sweep -->
-
-<line x1="800"
-      y1="320"
-      x2="1010"
-      y2="160"
-      stroke="#00ff88"
-      stroke-width="5"
-      filter="url(#glow)">
-
-<animateTransform
-attributeName="transform"
-type="rotate"
-from="0 800 320"
-to="360 800 320"
-dur="6s"
-repeatCount="indefinite"/>
-
-</line>
-
-<!-- Sweep glow -->
+<!-- Animated Pulse -->
 
 <circle cx="800"
         cy="320"
-        r="8"
+        r="12"
         fill="#00ff88">
 
 <animate attributeName="r"
-values="8;12;8"
-dur="1s"
+values="12;18;12"
+dur="1.5s"
 repeatCount="indefinite"/>
 
 </circle>
 
-<!-- Skill Polygon -->
+<!-- Radar Shape -->
 
 <polygon
 points="
@@ -101,12 +61,12 @@ points="
 800,520
 620,420
 590,210"
-fill="rgba(255,0,255,0.15)"
+fill="#ff00ff22"
 stroke="#ff00ff"
-stroke-width="4">
+stroke-width="3">
 
 <animate attributeName="opacity"
-values="0.7;1;0.7"
+values="0.5;1;0.5"
 dur="3s"
 repeatCount="indefinite"/>
 
@@ -114,89 +74,57 @@ repeatCount="indefinite"/>
 
 <!-- BACKEND -->
 
-<circle cx="800"
-        cy="90"
-        r="12"
-        fill="#00ffff">
-
-<animate attributeName="r"
-values="12;16;12"
-dur="2s"
-repeatCount="indefinite"/>
-
+<circle cx="800" cy="90" r="12" fill="#00ffff">
+<animate attributeName="r" values="12;16;12" dur="2s" repeatCount="indefinite"/>
 </circle>
 
 <text x="800"
-      y="70"
+      y="65"
       text-anchor="middle"
       fill="#00ffff"
       font-size="18"
       font-family="monospace">
 
-BACKEND 95%
+BACKEND ENGINEERING
 
 </text>
 
 <!-- SECURITY -->
 
-<circle cx="1010"
-        cy="210"
-        r="12"
-        fill="#ff0040">
-
-<animate attributeName="r"
-values="12;16;12"
-dur="1.5s"
-repeatCount="indefinite"/>
-
+<circle cx="1010" cy="210" r="12" fill="#ff0040">
+<animate attributeName="r" values="12;16;12" dur="1.6s" repeatCount="indefinite"/>
 </circle>
 
-<text x="1080"
+<text x="1090"
       y="215"
       fill="#ff0040"
       font-size="18"
       font-family="monospace">
 
-SECURITY 90%
+SECURITY
 
 </text>
 
 <!-- CLOUD -->
 
-<circle cx="980"
-        cy="420"
-        r="12"
-        fill="#ffd700">
-
-<animate attributeName="r"
-values="12;16;12"
-dur="1.7s"
-repeatCount="indefinite"/>
-
+<circle cx="980" cy="420" r="12" fill="#ffd700">
+<animate attributeName="r" values="12;16;12" dur="1.8s" repeatCount="indefinite"/>
 </circle>
 
-<text x="1040"
+<text x="1060"
       y="425"
       fill="#ffd700"
       font-size="18"
       font-family="monospace">
 
-CLOUD 88%
+CLOUD DEPLOYMENT
 
 </text>
 
 <!-- SYSTEM DESIGN -->
 
-<circle cx="800"
-        cy="520"
-        r="12"
-        fill="#00ff88">
-
-<animate attributeName="r"
-values="12;16;12"
-dur="2.2s"
-repeatCount="indefinite"/>
-
+<circle cx="800" cy="520" r="12" fill="#00ff88">
+<animate attributeName="r" values="12;16;12" dur="2.2s" repeatCount="indefinite"/>
 </circle>
 
 <text x="800"
@@ -206,96 +134,80 @@ repeatCount="indefinite"/>
       font-size="18"
       font-family="monospace">
 
-SYSTEM DESIGN 92%
+SYSTEM DESIGN
 
 </text>
 
 <!-- DATABASE -->
 
-<circle cx="620"
-        cy="420"
-        r="12"
-        fill="#ff66ff">
-
-<animate attributeName="r"
-values="12;16;12"
-dur="2s"
-repeatCount="indefinite"/>
-
+<circle cx="620" cy="420" r="12" fill="#ff66ff">
+<animate attributeName="r" values="12;16;12" dur="2s" repeatCount="indefinite"/>
 </circle>
 
-<text x="470"
+<text x="390"
       y="425"
       fill="#ff66ff"
       font-size="18"
       font-family="monospace">
 
-DATABASES 87%
+DATABASE DESIGN
 
 </text>
 
 <!-- AI -->
 
-<circle cx="590"
-        cy="210"
-        r="12"
-        fill="#00ffff">
-
-<animate attributeName="r"
-values="12;16;12"
-dur="1.8s"
-repeatCount="indefinite"/>
-
+<circle cx="590" cy="210" r="12" fill="#00ffff">
+<animate attributeName="r" values="12;16;12" dur="1.9s" repeatCount="indefinite"/>
 </circle>
 
-<text x="420"
+<text x="380"
       y="215"
       fill="#00ffff"
       font-size="18"
       font-family="monospace">
 
-AI / ML 85%
+AI PROJECTS
 
 </text>
 
-<!-- Skill Bars -->
+<!-- Right-side Tech Stack -->
 
 <g font-family="monospace">
 
-<text x="1200" y="180" fill="#00ffff">JAVA</text>
-<rect x="1280" y="168" width="220" height="12" fill="#220022"/>
-<rect x="1280" y="168" width="210" height="12" fill="#00ffff"/>
+<text x="1200" y="170" fill="#00ffff">JAVA</text>
+<rect x="1280" y="158" width="220" height="12" fill="#00ffff"/>
 
-<text x="1200" y="220" fill="#00ff88">SPRING BOOT</text>
-<rect x="1280" y="208" width="220" height="12" fill="#220022"/>
-<rect x="1280" y="208" width="200" height="12" fill="#00ff88"/>
+<text x="1200" y="210" fill="#00ff88">SPRING BOOT</text>
+<rect x="1280" y="198" width="220" height="12" fill="#00ff88"/>
 
-<text x="1200" y="260" fill="#ffd700">AWS</text>
-<rect x="1280" y="248" width="220" height="12" fill="#220022"/>
-<rect x="1280" y="248" width="190" height="12" fill="#ffd700"/>
+<text x="1200" y="250" fill="#ffd700">MYSQL</text>
+<rect x="1280" y="238" width="220" height="12" fill="#ffd700"/>
 
-<text x="1200" y="300" fill="#ff66ff">MYSQL</text>
-<rect x="1280" y="288" width="220" height="12" fill="#220022"/>
-<rect x="1280" y="288" width="185" height="12" fill="#ff66ff"/>
+<text x="1200" y="290" fill="#ff66ff">REDIS</text>
+<rect x="1280" y="278" width="220" height="12" fill="#ff66ff"/>
 
-<text x="1200" y="340" fill="#ff0040">REDIS</text>
-<rect x="1280" y="328" width="220" height="12" fill="#220022"/>
-<rect x="1280" y="328" width="180" height="12" fill="#ff0040"/>
+<text x="1200" y="330" fill="#ff0040">AWS</text>
+<rect x="1280" y="318" width="220" height="12" fill="#ff0040"/>
 
-<text x="1200" y="380" fill="#00ffff">DOCKER</text>
-<rect x="1280" y="368" width="220" height="12" fill="#220022"/>
-<rect x="1280" y="368" width="175" height="12" fill="#00ffff"/>
+<text x="1200" y="370" fill="#00ffff">DOCKER</text>
+<rect x="1280" y="358" width="220" height="12" fill="#00ffff"/>
+
+<text x="1200" y="410" fill="#00ff88">JWT & RBAC</text>
+<rect x="1280" y="398" width="220" height="12" fill="#00ff88"/>
+
+<text x="1200" y="450" fill="#ffd700">REST APIs</text>
+<rect x="1280" y="438" width="220" height="12" fill="#ffd700"/>
 
 </g>
 
-<!-- Radar Cat -->
+<!-- Cyber Cat -->
 
 <g>
 
 <animateTransform
 attributeName="transform"
 type="translate"
-values="0 0;20 0;0 0"
+values="0 0;12 0;0 0"
 dur="3s"
 repeatCount="indefinite"/>
 
@@ -330,11 +242,9 @@ fill="#ff66ff"/>
       font-size="16"
       font-family="monospace">
 
-RADAR CAT ANALYZING SYSTEMS...
+RADAR CAT MONITORING PROJECTS...
 
 </text>
-
-<!-- Footer -->
 
 <text x="800"
       y="590"
@@ -343,7 +253,7 @@ RADAR CAT ANALYZING SYSTEMS...
       font-size="12"
       font-family="monospace">
 
-BACKEND • SECURITY • AI • CLOUD • DATABASES • SYSTEM DESIGN
+JAVA • SPRING BOOT • MYSQL • REDIS • AWS • DOCKER • SECURITY • AI
 
 </text>
 
