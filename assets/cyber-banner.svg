@@ -1,0 +1,241 @@
+```svg
+<svg width="1600" height="500" viewBox="0 0 1600 500" xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+
+<linearGradient id="sky" x1="0%" y1="0%" x2="0%" y2="100%">
+<stop offset="0%" stop-color="#090014"/>
+<stop offset="40%" stop-color="#2c004d"/>
+<stop offset="100%" stop-color="#ff00c8"/>
+</linearGradient>
+
+<linearGradient id="ground" x1="0%" y1="0%" x2="100%" y2="0%">
+<stop offset="0%" stop-color="#00ffff"/>
+<stop offset="100%" stop-color="#ff00ff"/>
+</linearGradient>
+
+<filter id="glow">
+<feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+<feMerge>
+<feMergeNode in="coloredBlur"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+
+<filter id="bigGlow">
+<feGaussianBlur stdDeviation="10"/>
+</filter>
+
+</defs>
+
+<!-- background -->
+<rect width="1600" height="500" fill="url(#sky)"/>
+
+<!-- stars -->
+
+<g fill="#ffffff">
+
+<circle cx="120" cy="60" r="2">
+<animate attributeName="opacity" values="1;0.2;1" dur="2s" repeatCount="indefinite"/>
+</circle>
+
+<circle cx="350" cy="90" r="2">
+<animate attributeName="opacity" values="1;0.1;1" dur="4s" repeatCount="indefinite"/>
+</circle>
+
+<circle cx="900" cy="70" r="2">
+<animate attributeName="opacity" values="1;0.2;1" dur="3s" repeatCount="indefinite"/>
+</circle>
+
+<circle cx="1300" cy="40" r="2">
+<animate attributeName="opacity" values="1;0.2;1" dur="5s" repeatCount="indefinite"/>
+</circle>
+
+<circle cx="1450" cy="100" r="2">
+<animate attributeName="opacity" values="1;0.2;1" dur="2s" repeatCount="indefinite"/>
+</circle>
+
+</g>
+
+<!-- neon sun -->
+
+<circle cx="800" cy="180" r="90"
+fill="none"
+stroke="#ff66ff"
+stroke-width="4"
+filter="url(#glow)">
+<animate attributeName="r" values="90;94;90" dur="3s" repeatCount="indefinite"/>
+</circle>
+
+<!-- skyline -->
+
+<g fill="#090014">
+
+<rect x="80" y="210" width="60" height="220"/>
+<rect x="170" y="170" width="90" height="260"/>
+<rect x="300" y="130" width="80" height="300"/>
+<rect x="430" y="180" width="100" height="250"/>
+<rect x="580" y="100" width="120" height="330"/>
+<rect x="760" y="160" width="90" height="270"/>
+<rect x="910" y="120" width="110" height="310"/>
+<rect x="1070" y="180" width="120" height="250"/>
+<rect x="1240" y="140" width="100" height="290"/>
+<rect x="1380" y="190" width="90" height="240"/>
+
+</g>
+
+<!-- windows -->
+
+<g fill="#00ffff">
+
+<rect x="100" y="240" width="6" height="10"/>
+<rect x="120" y="260" width="6" height="10"/>
+<rect x="190" y="220" width="6" height="10"/>
+<rect x="210" y="250" width="6" height="10"/>
+<rect x="330" y="180" width="6" height="10"/>
+<rect x="350" y="210" width="6" height="10"/>
+<rect x="610" y="150" width="6" height="10"/>
+<rect x="640" y="190" width="6" height="10"/>
+<rect x="960" y="180" width="6" height="10"/>
+<rect x="980" y="220" width="6" height="10"/>
+
+</g>
+
+<!-- neon ground -->
+
+<line x1="0" y1="430" x2="1600" y2="430"
+stroke="url(#ground)"
+stroke-width="4"
+filter="url(#glow)"/>
+
+<!-- grid -->
+
+<g stroke="#ff00ff" opacity="0.3">
+
+<line x1="0" y1="430" x2="1600" y2="430"/>
+
+<line x1="200" y1="430" x2="100" y2="500"/>
+<line x1="400" y1="430" x2="300" y2="500"/>
+<line x1="600" y1="430" x2="500" y2="500"/>
+<line x1="800" y1="430" x2="800" y2="500"/>
+<line x1="1000" y1="430" x2="1100" y2="500"/>
+<line x1="1200" y1="430" x2="1300" y2="500"/>
+<line x1="1400" y1="430" x2="1500" y2="500"/>
+
+</g>
+
+<!-- moving packet -->
+
+<circle r="6" fill="#00ffff" filter="url(#glow)">
+<animateMotion
+dur="6s"
+repeatCount="indefinite"
+path="M 100 380 L 1500 380"/>
+</circle>
+
+<!-- anime cyber cat -->
+
+<g transform="translate(0,0)">
+
+<animateTransform
+attributeName="transform"
+type="translate"
+values="-150 0;1700 0"
+dur="16s"
+repeatCount="indefinite"/>
+
+<!-- body -->
+
+<ellipse cx="0" cy="320" rx="35" ry="20"
+fill="#ff66ff"
+filter="url(#glow)"/>
+
+<!-- head -->
+
+<circle cx="-40" cy="305" r="18"
+fill="#ff66ff"/>
+
+<!-- ears -->
+
+<polygon points="-55,285 -48,265 -38,285"
+fill="#ff66ff"/>
+
+<polygon points="-25,285 -15,265 -8,285"
+fill="#ff66ff"/>
+
+<!-- visor -->
+
+<rect x="-58" y="300"
+width="35"
+height="8"
+rx="3"
+fill="#00ffff"/>
+
+<!-- tail -->
+
+<path d="M35 320 Q60 300 70 330"
+stroke="#ff66ff"
+stroke-width="5"
+fill="none">
+
+<animate attributeName="d"
+values="
+M35 320 Q60 300 70 330;
+M35 320 Q60 340 70 310;
+M35 320 Q60 300 70 330"
+dur="1s"
+repeatCount="indefinite"/>
+
+</path>
+
+</g>
+
+<!-- title -->
+
+<text
+x="800"
+y="110"
+text-anchor="middle"
+font-size="52"
+font-family="monospace"
+fill="#ffffff"
+filter="url(#glow)"
+font-weight="bold">
+
+SANJAY VARADHARAJAN
+
+</text>
+
+<text
+x="800"
+y="150"
+text-anchor="middle"
+font-size="20"
+font-family="monospace"
+fill="#00ffff">
+
+BACKEND & SYSTEMS ENGINEER
+
+</text>
+
+<!-- system status -->
+
+<text
+x="800"
+y="210"
+text-anchor="middle"
+font-size="16"
+font-family="monospace"
+fill="#00ff88">
+
+SYSTEM STATUS : OPERATIONAL
+
+<animate attributeName="opacity"
+values="1;0.4;1"
+dur="1s"
+repeatCount="indefinite"/>
+
+</text>
+
+</svg>
+```
