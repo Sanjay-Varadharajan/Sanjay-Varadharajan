@@ -1,0 +1,302 @@
+<svg width="1600" height="420" viewBox="0 0 1600 420" xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+
+<linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#050010"/>
+<stop offset="100%" stop-color="#120022"/>
+</linearGradient>
+
+<filter id="glow">
+<feGaussianBlur stdDeviation="4"/>
+</filter>
+
+<filter id="bigGlow">
+<feGaussianBlur stdDeviation="10"/>
+</filter>
+
+</defs>
+
+<!-- Background -->
+
+<rect width="1600" height="420" fill="url(#bg)"/>
+
+<!-- Stars -->
+
+<g fill="#ffffff">
+
+<circle cx="100" cy="70" r="2">
+<animate attributeName="opacity" values="1;0.1;1" dur="2s" repeatCount="indefinite"/>
+</circle>
+
+<circle cx="240" cy="40" r="2">
+<animate attributeName="opacity" values="1;0.2;1" dur="3s" repeatCount="indefinite"/>
+</circle>
+
+<circle cx="430" cy="80" r="2">
+<animate attributeName="opacity" values="1;0.1;1" dur="4s" repeatCount="indefinite"/>
+</circle>
+
+<circle cx="850" cy="50" r="2">
+<animate attributeName="opacity" values="1;0.3;1" dur="2.5s" repeatCount="indefinite"/>
+</circle>
+
+<circle cx="1200" cy="90" r="2">
+<animate attributeName="opacity" values="1;0.1;1" dur="3.5s" repeatCount="indefinite"/>
+</circle>
+
+<circle cx="1450" cy="55" r="2">
+<animate attributeName="opacity" values="1;0.2;1" dur="2s" repeatCount="indefinite"/>
+</circle>
+
+</g>
+
+<!-- Title -->
+
+<text
+x="800"
+y="70"
+text-anchor="middle"
+fill="#ff00ff"
+font-size="28"
+font-family="monospace"
+font-weight="bold">
+
+SERVER CAT STATUS
+
+</text>
+
+<!-- Server Rack -->
+
+<rect
+x="450"
+y="180"
+width="700"
+height="120"
+rx="12"
+fill="#111"/>
+
+<rect x="500" y="205" width="600" height="18" fill="#222"/>
+<rect x="500" y="240" width="600" height="18" fill="#222"/>
+<rect x="500" y="275" width="600" height="18" fill="#222"/>
+
+<!-- LEDs -->
+
+<circle cx="540" cy="214" r="4" fill="#00ff88">
+<animate attributeName="opacity" values="1;0.2;1" dur="1s" repeatCount="indefinite"/>
+</circle>
+
+<circle cx="540" cy="249" r="4" fill="#00ffff">
+<animate attributeName="opacity" values="1;0.2;1" dur="1.4s" repeatCount="indefinite"/>
+</circle>
+
+<circle cx="540" cy="284" r="4" fill="#ff00ff">
+<animate attributeName="opacity" values="1;0.2;1" dur="1.8s" repeatCount="indefinite"/>
+</circle>
+
+<!-- Data Packets -->
+
+<circle r="5" fill="#00ffff">
+
+<animateMotion
+dur="6s"
+repeatCount="indefinite"
+path="M500 150 L1100 150"/>
+
+</circle>
+
+<circle r="5" fill="#ff00ff">
+
+<animateMotion
+dur="4s"
+repeatCount="indefinite"
+path="M1100 160 L500 160"/>
+
+</circle>
+
+<!-- Sleeping Cyber Cat -->
+
+<g>
+
+<!-- Body -->
+
+<ellipse
+cx="800"
+cy="145"
+rx="120"
+ry="50"
+fill="#ff66ff"
+filter="url(#glow)"/>
+
+<!-- Head -->
+
+<circle
+cx="680"
+cy="135"
+r="42"
+fill="#ff66ff"/>
+
+<!-- Ears -->
+
+<polygon points="650,110 665,70 685,110"
+fill="#ff66ff"/>
+
+<polygon points="690,110 710,70 725,110"
+fill="#ff66ff"/>
+
+<!-- Visor -->
+
+<rect
+x="650"
+y="128"
+width="55"
+height="10"
+rx="5"
+fill="#00ffff"/>
+
+<!-- Tail -->
+
+<path
+d="M920 150 Q980 100 1030 160"
+stroke="#ff66ff"
+stroke-width="12"
+fill="none">
+
+<animate
+attributeName="d"
+values="
+M920 150 Q980 100 1030 160;
+M920 150 Q980 130 1030 130;
+M920 150 Q980 100 1030 160"
+dur="2s"
+repeatCount="indefinite"/>
+
+</path>
+
+<!-- Breathing -->
+
+<animateTransform
+attributeName="transform"
+type="scale"
+values="1 1;1.02 1.03;1 1"
+dur="3s"
+repeatCount="indefinite"/>
+
+</g>
+
+<!-- ZZZ -->
+
+<text
+x="620"
+y="90"
+fill="#00ffff"
+font-size="20"
+font-family="monospace">
+
+Z
+
+<animate
+attributeName="y"
+values="90;60;30"
+dur="2s"
+repeatCount="indefinite"/>
+
+<animate
+attributeName="opacity"
+values="1;0"
+dur="2s"
+repeatCount="indefinite"/>
+
+</text>
+
+<text
+x="590"
+y="70"
+fill="#00ffff"
+font-size="26"
+font-family="monospace">
+
+Z
+
+<animate
+attributeName="y"
+values="70;40;10"
+dur="2.5s"
+repeatCount="indefinite"/>
+
+<animate
+attributeName="opacity"
+values="1;0"
+dur="2.5s"
+repeatCount="indefinite"/>
+
+</text>
+
+<text
+x="560"
+y="50"
+fill="#00ffff"
+font-size="32"
+font-family="monospace">
+
+Z
+
+<animate
+attributeName="y"
+values="50;20;-10"
+dur="3s"
+repeatCount="indefinite"/>
+
+<animate
+attributeName="opacity"
+values="1;0"
+dur="3s"
+repeatCount="indefinite"/>
+
+</text>
+
+<!-- Status Terminal -->
+
+<rect
+x="300"
+y="330"
+width="1000"
+height="55"
+rx="8"
+fill="#000"
+stroke="#00ff88"
+stroke-width="2"/>
+
+<text
+x="800"
+y="365"
+text-anchor="middle"
+fill="#00ff88"
+font-size="18"
+font-family="monospace">
+
+SYSTEM STABLE • ALL SERVICES OPERATIONAL • UPTIME 99.99%
+
+<animate
+attributeName="opacity"
+values="1;0.6;1"
+dur="1.5s"
+repeatCount="indefinite"/>
+
+</text>
+
+<!-- Footer -->
+
+<text
+x="800"
+y="405"
+text-anchor="middle"
+fill="#666"
+font-size="12"
+font-family="monospace">
+
+SANJAY VARADHARAJAN • BACKEND COMMAND CENTER • CYBER CAT NETWORK ONLINE
+
+</text>
+
+</svg>
