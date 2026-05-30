@@ -1,6 +1,6 @@
 <div align="center">
 
-# ◈ BACKEND COMMAND CENTER ◈
+#  BACKEND COMMAND CENTER 
 
 <img src="./assets/cyber-banner.svg" width="100%">
 
