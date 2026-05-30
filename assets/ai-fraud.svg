@@ -1,0 +1,434 @@
+<svg width="1600" height="550" viewBox="0 0 1600 550" xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+
+<linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#070012"/>
+<stop offset="100%" stop-color="#170028"/>
+</linearGradient>
+
+<filter id="glow">
+<feGaussianBlur stdDeviation="4"/>
+</filter>
+
+<filter id="strongGlow">
+<feGaussianBlur stdDeviation="8"/>
+</filter>
+
+</defs>
+
+<rect width="1600" height="550" fill="url(#bg)"/>
+
+<!-- TITLE -->
+
+<text x="800"
+      y="55"
+      text-anchor="middle"
+      fill="#ff00ff"
+      font-size="34"
+      font-family="monospace"
+      font-weight="bold">
+
+AI EMAIL FRAUD DETECTION CENTER
+
+</text>
+
+<!-- THREAT LEVEL -->
+
+<rect x="80"
+      y="100"
+      width="320"
+      height="160"
+      rx="20"
+      fill="#100018"
+      stroke="#ff0040"
+      stroke-width="3"/>
+
+<text x="240"
+      y="145"
+      text-anchor="middle"
+      fill="#ff0040"
+      font-size="22"
+      font-family="monospace">
+
+THREAT LEVEL
+
+</text>
+
+<text x="240"
+      y="210"
+      text-anchor="middle"
+      fill="#ff0040"
+      font-size="48"
+      font-family="monospace"
+      font-weight="bold">
+
+HIGH
+
+<animate attributeName="opacity"
+values="1;0.4;1"
+dur="1s"
+repeatCount="indefinite"/>
+
+</text>
+
+<!-- FRAUD SCORE GAUGE -->
+
+<circle cx="800"
+        cy="190"
+        r="90"
+        fill="none"
+        stroke="#330033"
+        stroke-width="16"/>
+
+<circle cx="800"
+        cy="190"
+        r="90"
+        fill="none"
+        stroke="#ff00ff"
+        stroke-width="16"
+        stroke-linecap="round"
+        stroke-dasharray="480"
+        stroke-dashoffset="120">
+
+<animate attributeName="stroke-dashoffset"
+values="160;120;160"
+dur="3s"
+repeatCount="indefinite"/>
+
+</circle>
+
+<text x="800"
+      y="185"
+      text-anchor="middle"
+      fill="#ffd700"
+      font-size="48"
+      font-family="monospace"
+      font-weight="bold">
+
+87%
+
+</text>
+
+<text x="800"
+      y="220"
+      text-anchor="middle"
+      fill="#ffffff"
+      font-size="14"
+      font-family="monospace">
+
+FRAUD CONFIDENCE
+
+</text>
+
+<!-- SECURITY PANEL -->
+
+<rect x="1180"
+      y="100"
+      width="320"
+      height="160"
+      rx="20"
+      fill="#100018"
+      stroke="#00ff88"
+      stroke-width="3"/>
+
+<text x="1340"
+      y="145"
+      text-anchor="middle"
+      fill="#00ff88"
+      font-size="20"
+      font-family="monospace">
+
+SYSTEM STATUS
+
+</text>
+
+<circle cx="1235"
+        cy="185"
+        r="8"
+        fill="#00ff88">
+
+<animate attributeName="opacity"
+values="1;0.2;1"
+dur="1s"
+repeatCount="indefinite"/>
+
+</circle>
+
+<text x="1260"
+      y="190"
+      fill="#00ff88"
+      font-size="14"
+      font-family="monospace">
+
+AI MODEL ONLINE
+
+</text>
+
+<circle cx="1235"
+        cy="220"
+        r="8"
+        fill="#00ff88">
+
+<animate attributeName="opacity"
+values="1;0.2;1"
+dur="1.3s"
+repeatCount="indefinite"/>
+
+</circle>
+
+<text x="1260"
+      y="225"
+      fill="#00ff88"
+      font-size="14"
+      font-family="monospace">
+
+FRAUD DB SYNCED
+
+</text>
+
+<!-- ANALYSIS BARS -->
+
+<rect x="160"
+      y="320"
+      width="1280"
+      height="170"
+      rx="20"
+      fill="#100018"
+      stroke="#00ffff"
+      stroke-width="2"/>
+
+<text x="800"
+      y="355"
+      text-anchor="middle"
+      fill="#00ffff"
+      font-size="22"
+      font-family="monospace">
+
+EMAIL ANALYSIS ENGINE
+
+</text>
+
+<!-- Sender -->
+
+<text x="250"
+      y="405"
+      fill="#ffffff"
+      font-size="14"
+      font-family="monospace">
+
+SENDER SCORE
+
+</text>
+
+<rect x="450"
+      y="392"
+      width="700"
+      height="16"
+      rx="8"
+      fill="#220022"/>
+
+<rect x="450"
+      y="392"
+      width="580"
+      height="16"
+      rx="8"
+      fill="#ff0040">
+
+<animate attributeName="width"
+values="520;580;550;580"
+dur="3s"
+repeatCount="indefinite"/>
+
+</rect>
+
+<!-- Headers -->
+
+<text x="250"
+      y="440"
+      fill="#ffffff"
+      font-size="14"
+      font-family="monospace">
+
+HEADER ANALYSIS
+
+</text>
+
+<rect x="450"
+      y="427"
+      width="700"
+      height="16"
+      rx="8"
+      fill="#220022"/>
+
+<rect x="450"
+      y="427"
+      width="500"
+      height="16"
+      rx="8"
+      fill="#ffd700">
+
+<animate attributeName="width"
+values="450;500;470;500"
+dur="4s"
+repeatCount="indefinite"/>
+
+</rect>
+
+<!-- Link Analysis -->
+
+<text x="250"
+      y="475"
+      fill="#ffffff"
+      font-size="14"
+      font-family="monospace">
+
+LINK ANALYSIS
+
+</text>
+
+<rect x="450"
+      y="462"
+      width="700"
+      height="16"
+      rx="8"
+      fill="#220022"/>
+
+<rect x="450"
+      y="462"
+      width="620"
+      height="16"
+      rx="8"
+      fill="#ff0040">
+
+<animate attributeName="width"
+values="580;620;600;620"
+dur="2s"
+repeatCount="indefinite"/>
+
+</rect>
+
+<!-- ALERTS -->
+
+<rect x="1220"
+      y="320"
+      width="250"
+      height="140"
+      rx="14"
+      fill="#180010"
+      stroke="#ff0040"
+      stroke-width="2"/>
+
+<text x="1345"
+      y="355"
+      text-anchor="middle"
+      fill="#ff0040"
+      font-size="18"
+      font-family="monospace">
+
+ACTIVE ALERTS
+
+</text>
+
+<text x="1345"
+      y="405"
+      text-anchor="middle"
+      fill="#ffffff"
+      font-size="16"
+      font-family="monospace">
+
+14 BLOCKED
+
+</text>
+
+<text x="1345"
+      y="435"
+      text-anchor="middle"
+      fill="#ffffff"
+      font-size="16"
+      font-family="monospace">
+
+3 QUARANTINED
+
+</text>
+
+<!-- SECURITY CAT -->
+
+<g>
+
+<animateTransform
+attributeName="transform"
+type="translate"
+values="0 0;15 0;0 0"
+dur="2s"
+repeatCount="indefinite"/>
+
+<ellipse cx="95"
+         cy="505"
+         rx="35"
+         ry="18"
+         fill="#ff66ff"/>
+
+<circle cx="58"
+        cy="492"
+        r="14"
+        fill="#ff66ff"/>
+
+<polygon points="48,480 55,462 61,480"
+fill="#ff66ff"/>
+
+<polygon points="64,480 71,462 77,480"
+fill="#ff66ff"/>
+
+<rect x="47"
+      y="488"
+      width="20"
+      height="5"
+      fill="#00ffff"/>
+
+</g>
+
+<text x="160"
+      y="510"
+      fill="#ff66ff"
+      font-size="14"
+      font-family="monospace">
+
+SECURITY CAT MONITORING THREATS
+
+</text>
+
+<!-- DATA PACKETS -->
+
+<circle r="7" fill="#00ffff">
+
+<animateMotion
+dur="5s"
+repeatCount="indefinite"
+path="M400 190 L1180 190"/>
+
+</circle>
+
+<circle r="7" fill="#ff00ff">
+
+<animateMotion
+dur="3s"
+repeatCount="indefinite"
+path="M400 190 L1180 190"/>
+
+</circle>
+
+<!-- FOOTER -->
+
+<text x="800"
+      y="535"
+      text-anchor="middle"
+      fill="#888"
+      font-size="12"
+      font-family="monospace">
+
+EMAIL SCANNING • ML CLASSIFICATION • FRAUD DETECTION • THREAT ANALYSIS
+
+</text>
+
+</svg>
