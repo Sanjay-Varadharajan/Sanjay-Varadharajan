@@ -1,260 +1,180 @@
-<svg width="1600" height="600" viewBox="0 0 1600 600" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 700">
 
-<defs>
-<linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-<stop offset="0%" stop-color="#070012"/>
-<stop offset="100%" stop-color="#170028"/>
-</linearGradient>
-</defs>
-
-<rect width="1600" height="600" fill="url(#bg)"/>
+<rect width="1600" height="700" fill="#0a0014"/>
 
 <text x="800"
-      y="55"
+      y="60"
       text-anchor="middle"
       fill="#ff00ff"
-      font-size="34"
+      font-size="36"
       font-family="monospace"
       font-weight="bold">
-
 ACTIVITY RADAR · FOCUS AREAS
-
 </text>
 
-<!-- Radar -->
+<!-- Radar circles -->
 
-<g stroke="#ff00ff" fill="none" opacity="0.4">
-<circle cx="800" cy="320" r="60"/>
-<circle cx="800" cy="320" r="120"/>
-<circle cx="800" cy="320" r="180"/>
-<circle cx="800" cy="320" r="240"/>
-</g>
+<circle cx="800" cy="350" r="70"
+        stroke="#ff00ff"
+        stroke-width="1"
+        fill="none"/>
 
-<g stroke="#00ffff" opacity="0.4">
-<line x1="800" y1="80" x2="800" y2="560"/>
-<line x1="560" y1="320" x2="1040" y2="320"/>
-<line x1="630" y1="150" x2="970" y2="490"/>
-<line x1="970" y1="150" x2="630" y2="490"/>
-</g>
+<circle cx="800" cy="350" r="140"
+        stroke="#ff00ff"
+        stroke-width="1"
+        fill="none"/>
 
-<!-- Animated Pulse -->
+<circle cx="800" cy="350" r="210"
+        stroke="#ff00ff"
+        stroke-width="1"
+        fill="none"/>
 
-<circle cx="800"
-        cy="320"
-        r="12"
-        fill="#00ff88">
+<circle cx="800" cy="350" r="280"
+        stroke="#ff00ff"
+        stroke-width="1"
+        fill="none"/>
 
-<animate attributeName="r"
-values="12;18;12"
-dur="1.5s"
-repeatCount="indefinite"/>
+<!-- Radar lines -->
 
-</circle>
+<line x1="800" y1="70" x2="800" y2="630"
+      stroke="#00ffff"/>
 
-<!-- Radar Shape -->
+<line x1="520" y1="350" x2="1080" y2="350"
+      stroke="#00ffff"/>
+
+<line x1="610" y1="160" x2="990" y2="540"
+      stroke="#00ffff"/>
+
+<line x1="990" y1="160" x2="610" y2="540"
+      stroke="#00ffff"/>
+
+<!-- Shape -->
 
 <polygon
-points="
-800,90
-1010,210
-980,420
-800,520
-620,420
-590,210"
+points="800,120 1030,230 980,470 800,570 620,470 570,230"
 fill="#ff00ff22"
 stroke="#ff00ff"
-stroke-width="3">
+stroke-width="3"/>
 
-<animate attributeName="opacity"
-values="0.5;1;0.5"
-dur="3s"
-repeatCount="indefinite"/>
+<!-- Labels -->
 
-</polygon>
-
-<!-- BACKEND -->
-
-<circle cx="800" cy="90" r="12" fill="#00ffff">
-<animate attributeName="r" values="12;16;12" dur="2s" repeatCount="indefinite"/>
-</circle>
-
-<text x="800"
-      y="65"
+<circle cx="800" cy="120" r="10" fill="#00ffff"/>
+<text x="800" y="95"
       text-anchor="middle"
       fill="#00ffff"
       font-size="18"
       font-family="monospace">
-
 BACKEND ENGINEERING
-
 </text>
 
-<!-- SECURITY -->
-
-<circle cx="1010" cy="210" r="12" fill="#ff0040">
-<animate attributeName="r" values="12;16;12" dur="1.6s" repeatCount="indefinite"/>
-</circle>
-
-<text x="1090"
-      y="215"
-      fill="#ff0040"
+<circle cx="1030" cy="230" r="10" fill="#ff4444"/>
+<text x="1080" y="235"
+      fill="#ff4444"
       font-size="18"
       font-family="monospace">
-
 SECURITY
-
 </text>
 
-<!-- CLOUD -->
-
-<circle cx="980" cy="420" r="12" fill="#ffd700">
-<animate attributeName="r" values="12;16;12" dur="1.8s" repeatCount="indefinite"/>
-</circle>
-
-<text x="1060"
-      y="425"
+<circle cx="980" cy="470" r="10" fill="#ffd700"/>
+<text x="1040" y="475"
       fill="#ffd700"
       font-size="18"
       font-family="monospace">
-
 CLOUD DEPLOYMENT
-
 </text>
 
-<!-- SYSTEM DESIGN -->
-
-<circle cx="800" cy="520" r="12" fill="#00ff88">
-<animate attributeName="r" values="12;16;12" dur="2.2s" repeatCount="indefinite"/>
-</circle>
-
-<text x="800"
-      y="555"
+<circle cx="800" cy="570" r="10" fill="#00ff88"/>
+<text x="800" y="610"
       text-anchor="middle"
       fill="#00ff88"
       font-size="18"
       font-family="monospace">
-
 SYSTEM DESIGN
-
 </text>
 
-<!-- DATABASE -->
-
-<circle cx="620" cy="420" r="12" fill="#ff66ff">
-<animate attributeName="r" values="12;16;12" dur="2s" repeatCount="indefinite"/>
-</circle>
-
-<text x="390"
-      y="425"
+<circle cx="620" cy="470" r="10" fill="#ff66ff"/>
+<text x="350" y="475"
       fill="#ff66ff"
       font-size="18"
       font-family="monospace">
-
 DATABASE DESIGN
-
 </text>
 
-<!-- AI -->
-
-<circle cx="590" cy="210" r="12" fill="#00ffff">
-<animate attributeName="r" values="12;16;12" dur="1.9s" repeatCount="indefinite"/>
-</circle>
-
-<text x="380"
-      y="215"
+<circle cx="570" cy="230" r="10" fill="#00ffff"/>
+<text x="330" y="235"
       fill="#00ffff"
       font-size="18"
       font-family="monospace">
-
 AI PROJECTS
-
 </text>
 
-<!-- Right-side Tech Stack -->
+<!-- Tech Stack -->
 
-<g font-family="monospace">
-
-<text x="1200" y="170" fill="#00ffff">JAVA</text>
-<rect x="1280" y="158" width="220" height="12" fill="#00ffff"/>
-
-<text x="1200" y="210" fill="#00ff88">SPRING BOOT</text>
-<rect x="1280" y="198" width="220" height="12" fill="#00ff88"/>
-
-<text x="1200" y="250" fill="#ffd700">MYSQL</text>
-<rect x="1280" y="238" width="220" height="12" fill="#ffd700"/>
-
-<text x="1200" y="290" fill="#ff66ff">REDIS</text>
-<rect x="1280" y="278" width="220" height="12" fill="#ff66ff"/>
-
-<text x="1200" y="330" fill="#ff0040">AWS</text>
-<rect x="1280" y="318" width="220" height="12" fill="#ff0040"/>
-
-<text x="1200" y="370" fill="#00ffff">DOCKER</text>
-<rect x="1280" y="358" width="220" height="12" fill="#00ffff"/>
-
-<text x="1200" y="410" fill="#00ff88">JWT & RBAC</text>
-<rect x="1280" y="398" width="220" height="12" fill="#00ff88"/>
-
-<text x="1200" y="450" fill="#ffd700">REST APIs</text>
-<rect x="1280" y="438" width="220" height="12" fill="#ffd700"/>
-
-</g>
-
-<!-- Cyber Cat -->
-
-<g>
-
-<animateTransform
-attributeName="transform"
-type="translate"
-values="0 0;12 0;0 0"
-dur="3s"
-repeatCount="indefinite"/>
-
-<ellipse cx="180"
-         cy="500"
-         rx="40"
-         ry="20"
-         fill="#ff66ff"/>
-
-<circle cx="140"
-        cy="485"
-        r="15"
-        fill="#ff66ff"/>
-
-<polygon points="128,473 136,452 144,473"
-fill="#ff66ff"/>
-
-<polygon points="146,473 154,452 162,473"
-fill="#ff66ff"/>
-
-<rect x="126"
-      y="480"
-      width="22"
-      height="6"
-      fill="#00ffff"/>
-
-</g>
-
-<text x="250"
-      y="505"
-      fill="#ff66ff"
-      font-size="16"
+<text x="1180" y="180"
+      fill="#00ffff"
+      font-size="20"
       font-family="monospace">
-
-RADAR CAT MONITORING PROJECTS...
-
+JAVA
 </text>
+
+<text x="1180" y="230"
+      fill="#00ff88"
+      font-size="20"
+      font-family="monospace">
+SPRING BOOT
+</text>
+
+<text x="1180" y="280"
+      fill="#ffd700"
+      font-size="20"
+      font-family="monospace">
+MYSQL
+</text>
+
+<text x="1180" y="330"
+      fill="#ff66ff"
+      font-size="20"
+      font-family="monospace">
+REDIS
+</text>
+
+<text x="1180" y="380"
+      fill="#ff4444"
+      font-size="20"
+      font-family="monospace">
+AWS
+</text>
+
+<text x="1180" y="430"
+      fill="#00ffff"
+      font-size="20"
+      font-family="monospace">
+DOCKER
+</text>
+
+<text x="1180" y="480"
+      fill="#00ff88"
+      font-size="20"
+      font-family="monospace">
+JWT & RBAC
+</text>
+
+<text x="1180" y="530"
+      fill="#ffd700"
+      font-size="20"
+      font-family="monospace">
+REST APIs
+</text>
+
+<!-- Footer -->
 
 <text x="800"
-      y="590"
+      y="670"
       text-anchor="middle"
       fill="#888"
-      font-size="12"
+      font-size="14"
       font-family="monospace">
-
 JAVA • SPRING BOOT • MYSQL • REDIS • AWS • DOCKER • SECURITY • AI
-
 </text>
 
 </svg>
