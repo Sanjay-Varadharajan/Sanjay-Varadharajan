@@ -195,8 +195,6 @@ Personalized recommendation platform with location-aware matching.
 
 ### Catch-26 Winner
 
-National Level Hackathon
-
 </td>
 
 <td align="center">
