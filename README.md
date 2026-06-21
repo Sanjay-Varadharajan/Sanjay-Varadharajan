@@ -1,256 +1,48 @@
-<div align="center">
+---
 
-#  BACKEND COMMAND CENTER 
+<h2>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=378ADD&width=500&lines=Backend+Engineer+in+progress_" alt="Typing SVG" />
+</h2>
 
-<img src="./assets/cyber-banner.svg" width="100%">
-
-<br>
-
-# SANJAY VARADHARAJAN
-
-### Backend & Systems Engineer
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&pause=1200&color=FF00FF&center=true&vCenter=true&width=800&lines=Building+Secure+Systems...;Defending+APIs...;Training+AI+Against+Fraud...;Scaling+Cloud+Infrastructure..." />
-
-<br>
-
-<a href="https://www.linkedin.com/in/sanjay-varadharajan-sde">
-<img src="https://img.shields.io/badge/LINKEDIN-CONNECT-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
-</a>
-
-<a href="https://github.com/Sanjay-Varadharajan">
-<img src="https://img.shields.io/badge/GITHUB-PROFILE-181717?style=for-the-badge&logo=github&logoColor=white">
-</a>
-
-<a href="https://leetcode.com/u/sanjay_Varadharjan/">
-<img src="https://img.shields.io/badge/LEETCODE-SOLVE-FFA116?style=for-the-badge&logo=leetcode&logoColor=black">
-</a>
-
-<a href="mailto:sanjay.jr096@gmail.com">
-<img src="https://img.shields.io/badge/EMAIL-CONTACT-EA4335?style=for-the-badge&logo=gmail&logoColor=white">
-</a>
-
-</div>
+I build production-style backend systems — not just to make things work, but to design them right.
+My focus: IAM systems, secure API architecture, and backend flows built layer by layer.
 
 ---
 
-# 🐈 CYBER INFRASTRUCTURE GUARDIANS
+### Security & IAM
 
-<table>
-<tr>
-<td align="center">
+Built an IAM backend covering authentication & authorization flows, JWT/session handling,
+audit logging for security events (success/failure), and full user lifecycle management (activate/deactivate).
 
-### 🐈 Cache Cat
-
-Redis Guardian
-
-</td>
-
-<td align="center">
-
-### 🐈 API Cat
-
-Spring Protector
-
-</td>
-
-<td align="center">
-
-### 🐈 Cloud Cat
-
-AWS Overseer
-
-</td>
-
-<td align="center">
-
-### 🐈 Database Cat
-
-MySQL Keeper
-
-</td>
-</tr>
-</table>
+`JWT` `Session Auth` `Audit Logging` `User Lifecycle` `Spring Security`
 
 ---
 
-# ⚡ LIVE INFRASTRUCTURE
+### Backend Architecture
 
-<p align="center">
-<img src="./assets/infra-flow.svg" width="100%">
-</p>
+Spring Boot · Layered architecture (Controller → Service → Repository) · DTO patterns · REST API design · MySQL persistence
 
----
-
-# ⚙ TECH ARSENAL
-
-### Backend
-
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge\&logo=openjdk\&logoColor=white)
-
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge\&logo=spring\&logoColor=white)
-
-![REST API](https://img.shields.io/badge/REST_API-000000?style=for-the-badge)
-
-![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge)
-
-### Database
-
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge\&logo=mysql\&logoColor=white)
-
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge\&logo=redis\&logoColor=white)
-
-### Cloud & DevOps
-
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge\&logo=amazonaws\&logoColor=FF9900)
-
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge\&logo=docker\&logoColor=white)
-
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge\&logo=git\&logoColor=white)
-
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge\&logo=github\&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![REST API](https://img.shields.io/badge/REST_API-005571?style=flat-square)
 
 ---
 
-# 📊 COMMAND CENTER METRICS
+### API Integration
 
-<p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=Sanjay-Varadharajan&show_icons=true&theme=tokyonight&hide_border=true">
-</p>
+Built an AI-based email fraud detection system by integrating an external ML microservice via REST.
+Consumed prediction endpoints and wired results into backend logic.
 
-<p align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Sanjay-Varadharajan&theme=tokyonight&hide_border=true">
-</p>
+> ML integration only — no model building. Focus was on system design, secure API wiring, and backend flow.
 
-<p align="center">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sanjay-Varadharajan&layout=compact&theme=tokyonight&hide_border=true">
-</p>
+`REST Integration` `Microservices` `Fraud Detection` `External API Consumption`
 
 ---
 
-# 🐍 CONTRIBUTION SNAKE
+### System Design Thinking
 
-<p align="center">
-<img src="https://raw.githubusercontent.com/Sanjay-Varadharajan/Sanjay-Varadharajan/output/github-contribution-grid-snake.svg">
-</p>
-
----
-
-# 🔐 IAM BACKEND CONTROL ROOM
-
-<p align="center">
-<img src="./assets/iam-dashboard.svg" width="100%">
-</p>
-
-### Features
-
-* JWT Authentication
-* Role Based Access Control
-* Email Verification
-* Password Reset Workflows
-* AWS EC2 Deployment
-* Secure REST APIs
+Clean separation of concerns · Secure-by-default API patterns · Scalable backend flows
+Each project treated as a real production system — not just a demo.
 
 ---
-
-# 🤖 AI FRAUD DETECTION CENTER
-
-<p align="center">
-<img src="./assets/ai-fraud.svg" width="100%">
-</p>
-
-### Features
-
-* Fraud Confidence Scoring
-* Gmail IMAP Integration
-* ML Prediction Pipeline
-* Security Analytics Dashboard
-* Threat Detection Engine
-
----
-
-# 🚀 PROJECT VAULT
-
-### 🔐 IAM Backend System
-
-Secure authentication platform powered by Spring Boot, JWT, MySQL and AWS.
-
-### 🤖 AI Email Fraud Detection
-
-AI-assisted fraud detection system with real-time threat analysis.
-
-### 💼 Pathbros Job Portal
-
-Personalized recommendation platform with location-aware matching.
-
----
-
-# 🏆 ACHIEVEMENT HALL
-
-<table>
-<tr>
-<td align="center">
-
-## 🥇
-
-### Catch-26 Winner
-
-</td>
-
-<td align="center">
-
-## 🏅
-
-### Daksha 26
-
-Honourable Mention
-
-</td>
-</tr>
-</table>
-
----
-
-# 📡 ACTIVITY RADAR
-
-<p align="center">
-<img src="./assets/radar.svg" width="100%">
-</p>
-
----
-
-# 👁 PROFILE VISITS
-
-<p align="center">
-<img src="https://komarev.com/ghpvc/?username=Sanjay-Varadharajan&label=Visitors&color=ff00ff&style=for-the-badge">
-</p>
-
----
-
-# 📫 CONTACT TERMINAL
-
-📧 [sanjay.jr096@gmail.com](mailto:sanjay.jr096@gmail.com)
-
-🔗 LinkedIn: [www.linkedin.com/in/sanjay-varadharajan-sde](http://www.linkedin.com/in/sanjay-varadharajan-sde)
-
-💻 GitHub: https://github.com/Sanjay-Varadharajan
-
-🧩 LeetCode: https://leetcode.com/u/sanjay_Varadharjan/
-
----
-
-<p align="center">
-<img src="./assets/sleeping-cat.svg" width="100%">
-</p>
-
-<div align="center">
-
-### ◈ SERVER STATUS ◈
-
-`SYSTEM STABLE`
-
-`ALL SERVICES OPERATIONAL`
-
-`UPTIME : 99.99%`
-
-</div>
