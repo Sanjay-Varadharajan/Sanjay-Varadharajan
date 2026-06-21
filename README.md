@@ -1,12 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1f6e,100:58a6ff&height=200&section=header&text=Sanjay%20Varadharajan&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=Backend%20%26%20Systems%20Engineer&descAlignY=58&descColor=8b949e" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&duration=2500&pause=800&color=58A6FF&center=true&vCenter=true&width=700&lines=Sanjay+Varadharajan;Backend+%26+Systems+Engineer;IAM+%7C+Secure+APIs+%7C+Spring+Boot;Building+Systems+That+Don%27t+Break" alt="Typing SVG" />
 
 <br/>
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2500&pause=800&color=58A6FF&center=true&vCenter=true&width=700&lines=Building+IAM+Systems+%F0%9F%94%90;Designing+Secure+REST+APIs+%E2%9A%99%EF%B8%8F;Spring+Boot+%7C+MySQL+%7C+AWS+EC2;Backend+Engineer+in+Progress+%F0%9F%9A%80" alt="Typing SVG" />
-
-<br/><br/>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sanjay-varadharajan-sde)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Sanjay-Varadharajan)
@@ -16,8 +12,6 @@
 </div>
 
 ---
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0d1117,100:1a1f6e&height=3&section=header" width="100%"/>
 
 ## 🧠 About Me
 
@@ -56,51 +50,64 @@ API INTEGRATION
 
 ## ⚙️ Tech Stack
 
-<div align="center">
+**Backend**
 
-<img src="https://skillicons.dev/icons?i=java,spring,mysql,redis,aws,docker,git,github&theme=dark" />
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
+![REST API](https://img.shields.io/badge/REST_API-005571?style=for-the-badge)
 
-</div>
+**Database**
 
-<br/>
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 
-| Layer | Technologies |
-|---|---|
-| **Backend** | Java · Spring Boot · Spring Security · REST API |
-| **Database** | MySQL · Redis |
-| **Cloud & DevOps** | AWS EC2 · Docker · Git · GitHub |
+**Cloud & DevOps**
+
+![AWS EC2](https://img.shields.io/badge/AWS_EC2-232F3E?style=for-the-badge&logo=amazonaws&logoColor=FF9900)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
 ---
 
 ## 🚀 Projects
 
 ### 🔐 IAM Backend System
-> Secure authentication platform built with Spring Boot, JWT, MySQL, and deployed on AWS EC2
+> Secure authentication platform — Spring Boot · JWT · MySQL · AWS EC2
 
 - JWT auth flows · Role-based access control · Email verification
 - Audit logging for all security events (success & failure)
-- Full user lifecycle management — activate, deactivate, password reset
+- Full user lifecycle — activate, deactivate, password reset
 - REST APIs with layered architecture and DTO-based responses
 
-`Spring Boot` `Spring Security` `JWT` `MySQL` `AWS EC2`
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![Spring Security](https://img.shields.io/badge/Spring_Security-6DB33F?style=flat-square&logo=spring&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS_EC2-232F3E?style=flat-square&logo=amazonaws&logoColor=FF9900)
 
 ---
 
 ### 🤖 AI Email Fraud Detection
-> AI-assisted fraud detection — backend wired to an external ML microservice via REST
+> Fraud detection backend wired to an external ML microservice via REST
 
 - Gmail IMAP integration · Fraud confidence scoring
-- Threat detection pipeline · Security analytics dashboard
+- Threat detection pipeline · Security analytics
 - ⚠️ ML **integration** only — no model building
 
-`Spring Boot` `REST Integration` `Gmail IMAP` `MySQL`
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![REST](https://img.shields.io/badge/REST_API-005571?style=flat-square)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 
 ---
 
 ### 💼 Pathbros Job Portal
 > Personalized job recommendation platform with location-aware matching
 
-`Spring Boot` `MySQL` `REST API`
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![REST](https://img.shields.io/badge/REST_API-005571?style=flat-square)
 
 ---
 
@@ -130,16 +137,6 @@ API INTEGRATION
 
 ---
 
-## 🐍 Contribution Graph
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/Sanjay-Varadharajan/Sanjay-Varadharajan/output/github-contribution-grid-snake-dark.svg" />
-
-</div>
-
----
-
 ## 🏅 Achievements
 
 | Event | Result |
@@ -152,9 +149,5 @@ API INTEGRATION
 <div align="center">
 
 ![Visitors](https://komarev.com/ghpvc/?username=Sanjay-Varadharajan&label=Profile+Views&color=58a6ff&style=for-the-badge)
-
-<br/><br/>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:58a6ff,100:0d1117&height=120&section=footer" />
 
 </div>
