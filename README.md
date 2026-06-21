@@ -1,10 +1,10 @@
 ---
 
 <h2>
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=378ADD&width=500&lines=Backend+Engineer+in+progress_" alt="Typing SVG" />
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=378ADD&width=500&lines=Backend+Engineer+in+progress_" alt="Typing SVG" /></a>
 </h2>
 
-I build production-style backend systems — not just to make things work, but to design them right.
+I build production-style backend systems — not just to make things work, but to design them right.  
 My focus: IAM systems, secure API architecture, and backend flows built layer by layer.
 
 ---
@@ -31,7 +31,7 @@ Spring Boot · Layered architecture (Controller → Service → Repository) · D
 
 ### API Integration
 
-Built an AI-based email fraud detection system by integrating an external ML microservice via REST.
+Built an AI-based email fraud detection system by integrating an external ML microservice via REST.  
 Consumed prediction endpoints and wired results into backend logic.
 
 > ML integration only — no model building. Focus was on system design, secure API wiring, and backend flow.
@@ -42,7 +42,7 @@ Consumed prediction endpoints and wired results into backend logic.
 
 ### System Design Thinking
 
-Clean separation of concerns · Secure-by-default API patterns · Scalable backend flows
+Clean separation of concerns · Secure-by-default API patterns · Scalable backend flows  
 Each project treated as a real production system — not just a demo.
 
 ---
