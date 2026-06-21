@@ -127,11 +127,12 @@ API INTEGRATION
 
 ---
 
-## 🏆 Trophies
+## 🏅 Achievements & Stats
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=Sanjay-Varadharajan&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&column=7" />
+![Repos](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/Sanjay-Varadharajan&query=public_repos&label=Public+Repos&color=58a6ff&style=for-the-badge)
+![Followers](https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/Sanjay-Varadharajan&query=followers&label=Followers&color=3fb950&style=for-the-badge)
 
 </div>
 ---
